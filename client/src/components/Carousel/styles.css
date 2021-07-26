@@ -1,0 +1,12 @@
+#my-carousel {
+  background-color: #e8e8e8;
+}
+
+.carousel-details {
+  text-align: center;
+  align-items: center;
+}
+
+.carousel-details div {
+  padding: 15% 1%;
+}

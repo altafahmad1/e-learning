@@ -1,0 +1,36 @@
+.navbar {
+  font-family: 'Montserrat Alternates', sans-serif;
+  border-bottom: 8px solid #bbbfca;
+  background-color: #495464;
+}
+
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-family: 'Dancing Script', cursive;
+}
+
+.navbar-brand-centered {
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  display: block;
+  width: 160px;
+  text-align: center;
+  background-color: transparent;
+  margin-left: -80px;
+}
+
+.logo-e {
+  color: #c72727;
+}
+
+.navbar .btn {
+  width: 100px;
+  margin: 1% 0.5%;
+}

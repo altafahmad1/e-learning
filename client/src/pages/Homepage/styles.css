@@ -1,0 +1,107 @@
+/* -------------------------------------------------- Welcome Section -------------------------------------- */
+
+#welcome-section {
+  margin-top: 70px;
+  padding: 0 15%;
+  text-align: center;
+}
+
+/* ------------------------------------------------- Features Section -------------------------------------- */
+#features-section {
+  text-align: center;
+  margin-top: 38px;
+}
+
+.feature {
+  padding: 2rem 4rem;
+  text-align: center;
+}
+
+.feature h4 {
+  margin-top: 15px;
+}
+
+.fa-check-circle {
+  color: #0fabf7;
+}
+
+.fa-phone-volume {
+  color: #28de65;
+}
+
+.feature-icon:hover {
+  opacity: 90%;
+}
+
+/*  ---------------------------------------------- Offered Courses section ----------------------------------------------------- */
+
+#offered-courses-section {
+  text-align: center;
+}
+
+#offered-courses-section h4 {
+  font-family: 'Oxygen Mono', monospace;
+}
+
+.uni-logo {
+  width: 100%;
+}
+
+.test-names {
+  margin: 1rem 0;
+  text-align: center;
+  border-bottom: 2px solid;
+}
+
+/*  ---------------------------------------------- Customer Feedback Section ----------------------------------------------------- */
+#comments-section {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+#comments-carousel {
+  text-align: center;
+}
+
+#comments-carousel .name {
+  margin-bottom: 0;
+  font-size: 1.4rem;
+}
+
+#comments-carousel small {
+  color: #2b3035;
+  font-size: 0.8rem;
+}
+
+#comments-carousel .carousel-item img {
+  border-radius: 100%;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+/*  ---------------------------------------------- Footer ----------------------------------------------------- */
+footer {
+  padding: 5rem;
+  background-color: #383b3f;
+  color: #fff;
+  text-align: center;
+}
+
+.social-icon-container a:first-of-type {
+  margin-left: 0;
+}
+
+.social-icon-container a {
+  color: #fff;
+  margin-left: 4rem;
+}
+
+hr {
+  border-top: 2px solid #2f3135;
+}
+
+footer p {
+  font-size: 20px;
+  margin-bottom: 0;
+}

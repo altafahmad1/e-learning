@@ -1,0 +1,15 @@
+.carousel-item img {
+  height: 500px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-brand-centered {
+    top: 1px;
+  }
+
+  .carousel-item img {
+    height: 300px;
+    width: 100%;
+  }
+}

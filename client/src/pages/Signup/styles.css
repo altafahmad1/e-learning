@@ -1,0 +1,33 @@
+.logo a {
+  color: #212529;
+}
+
+.logo a:hover {
+  text-decoration: none;
+}
+
+.logo {
+  margin-bottom: 3rem;
+  font-size: 3rem;
+  font-family: 'Dancing Script', cursive;
+}
+
+.signup-component button {
+  margin-top: 3rem;
+}
+
+.sign-in-text {
+  margin-top: 3rem;
+  font-weight: bold;
+}
+
+.sign-in-text.highlighted {
+  color: #c72727;
+}
+
+.sign-in-text a:hover,
+.forgot-password:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: #b42222;
+}

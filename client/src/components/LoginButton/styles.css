@@ -1,0 +1,40 @@
+.login-button {
+  border: none;
+  color: #fff;
+  background-color: #c72727;
+  font-size: 1.2rem;
+  margin: 0.5rem auto;
+  display: block;
+  outline: none;
+  border-radius: 20px;
+  width: 60%;
+  padding: 0.8rem;
+}
+
+.login-button:focus {
+  outline: none;
+}
+
+.login-button:hover {
+  background-color: #b42222;
+}
+
+@media only screen and (min-width: 1100px) {
+  .login-button {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .login-button {
+    padding: 0.6rem;
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .login-button {
+    padding: 0.5rem;
+    width: 80%;
+  }
+}
